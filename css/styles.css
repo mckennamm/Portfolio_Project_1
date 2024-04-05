@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: slategray;
+    text-align: center;
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* navigation/header */
+
+.background-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin: 10px 30px;
+    display: flex;
+}
+
+.molly-in-codeland-logo {
+    height: 100px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    display: flex;
+}
+
+.navbar {
+    float: right;
+    margin: 30px auto;
+    display: inline-flex;
+    background-color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 10px 40px;
+    color: #000;
+}
+
+.navbar a li {
+    display: table-cell;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+}
