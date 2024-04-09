@@ -271,7 +271,27 @@ h1.welcome-message {
     font-weight: 100;
     font-size: 50px;
     padding-bottom: 0;
-    margin-bottom: 50px;; 
+    margin-bottom: 50px;
+}
+.projects-list {
+    list-style: none;
+    font-family: dosis;
+    text-align:start;
+    text-decoration: none;
+}
+
+.projects-list li {
+    
+    padding: 20px 11px; /* Adjust the padding */
+    text-align: start;
+    display: flex; /* Add flexbox display */
+    align-items: center; /* Vertically center items */
+}
+
+.projects-list li a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: slategray
 }
 
 
@@ -288,12 +308,26 @@ h1.welcome-message {
     font-family: Dosis, sans-serif;
 }
 
+.website-1-photo {
+    height: 100px;
+    width: 100px;
+}
+.projects-list li a:hover {
+    border: solid;
+    padding: 10px 10px;
+}
 
 
 
 
 
 /*Contact Information Section*/
+.contact-title {
+    font-weight: 100;
+    font-size: 50px;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
 
 .email-icon {
     height: 50px;
