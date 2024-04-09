@@ -22,7 +22,7 @@ body {
 }
 
 .navbar {
-    margin: 30px auto;
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,23 +113,13 @@ body {
 
 
 /*Welcome Message*/
-.welcome-image {
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 500px;
-    width: 100%;
-    margin: 10px 30px;
-    display: flex;
-}
-
-
 #welcome {
     background-image: url(/images/background-img-4.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     opacity: 0.8;
-    height: 700px;
+    height: 500px;
     position: relative;
     
     display: flex;
@@ -143,14 +133,14 @@ body {
     justify-content: center;
     
     vertical-align: middle;
-
-    
-
 }
 
 h1.welcome-message {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
+    font-family: Borel, 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    text-shadow: 5px 5px #80a59ccb;
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -161,6 +151,189 @@ h1.welcome-message {
     
     flex-wrap: wrap;
     background-size: cover;
-
-    font-weight: 800;
 }
+    
+
+@media (max-width: 600px) {
+    #welcome {
+        height: 200px;
+        width: 100%
+    }
+    
+    h1.welcome-message {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+/*About Me Section*/
+.about-me-title {
+    font-weight: 100;
+    font-size: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;  
+  
+}
+
+.about-div {
+    display: flex;
+}
+
+.about-div-left {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.about-div-center {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;    
+}
+
+.about-div-left {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;   
+}
+
+.molly-photo {
+    border: solid;
+    border-color: #708090;
+    height: 400px;
+    width: 330px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+
+
+.about-div p {
+    font-family: Dosis, sans-serif;
+    font-size: 18px;
+}
+
+.about-div-center {
+    padding-top: 45px;
+}
+
+.fun-fact-list {
+    text-decoration: none;
+    list-style: none;
+    text-align:start;
+}
+
+.fun-fact-list li {
+    font-weight: 100;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.fun-facts-message {
+    font-weight: 100;
+}
+
+@media (max-width: 600px) {
+    .about-me-title {
+        font-size: 30px;
+    }
+    .molly-photo {
+        height: 200px;
+        width: 150px;
+        display: block;
+    }
+    .about-div p {
+        font-size: 10px;
+    }
+    .about-me-message {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+/*Projects Section*/
+.projects-title {
+    font-weight: 100;
+    font-size: 50px;
+    padding-bottom: 0;
+    margin-bottom: 50px;; 
+}
+
+
+.projects-photo {
+    height: 400px;
+
+}
+
+.projects-description {
+    font-weight: 100;
+}
+
+.projects p {
+    font-family: Dosis, sans-serif;
+}
+
+
+
+
+
+
+/*Contact Information Section*/
+
+.email-icon {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+
+}
+
+.contact p {
+    display: flex;
+    margin-left: 300px;
+}
+
+.email-address {
+    display: flex;
+    align-items: center;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.copyright-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
