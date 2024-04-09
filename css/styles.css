@@ -114,7 +114,7 @@ body {
 
 /*Welcome Message*/
 #welcome {
-    background-image: url(../images/background-img-4.png);
+    background-image: url('https://github.com/mckennamm/Portfolio_Project_1/blob/main/images/background-img-4.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
